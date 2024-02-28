@@ -11,10 +11,10 @@ public class FileHandler extends Handler {
             } else {
                 System.out.println("Level not supported");
             }
-		} else if (next != null) {
+        } else if (next != null) {
             next.displayLog(log);
         } else {
-			System.out.println("Type not supported");
+            System.out.println("Type not supported");
 		}
 	}
 }
