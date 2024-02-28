@@ -1,8 +1,8 @@
 public class FileHandler extends Handler {
     @Override
-	public void displayLog(Log log) {
-		if (log.getLogType().equals("File")) {
-			if (log.getLogLevel().equals("INFO")) {
+    public void displayLog(Log log) {
+        if (log.getLogType().equals("File")) {
+            if (log.getLogLevel().equals("INFO")) {
                 
             } else if (log.getLogLevel().equals("DEBUG")) {
                 System.out.println("File::Logger: This is a debug information.");

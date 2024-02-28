@@ -1,8 +1,8 @@
 public class ErrorHandler extends Handler {
     @Override
-	public void displayLog(Log log) {
-		if (log.getLogType().equals("Error")) {
-			if (log.getLogLevel().equals("INFO")) {
+    public void displayLog(Log log) {
+        if (log.getLogType().equals("Error")) {
+            if (log.getLogLevel().equals("INFO")) {
                 
             } else if (log.getLogLevel().equals("DEBUG")) {
                 
