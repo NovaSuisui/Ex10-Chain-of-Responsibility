@@ -1,5 +1,5 @@
 public class ConsoleHandler extends Handler {
-	@Override
+    @Override
     public void displayLog(Log log) {
         if (log.getLogType().equals("Console")) {
             if (log.getLogLevel().equals("INFO")) {
